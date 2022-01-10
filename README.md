@@ -5,10 +5,10 @@ c = 0.001<br>
 R = 1969<br>
 \[Alpha] = 1/(c R)
 
-##obliczenie t:
+## obliczenie t:
 Solve[0.05 == Exp[-\[Alpha]*t], t]
 
-##badanie zależności i stworzenie wykresów:
+## badanie zależności i stworzenie wykresów:
 \[Omega] = 1;<br>
 s = {}; sd = {};<br>
 Do[<br>
